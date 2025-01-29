@@ -1,0 +1,33 @@
+/* 
+CSS - Cascading Style Sheets
+It is use to give style in website to make it look better.
+    BASIC FORMAT OF CSS
+
+    h1{
+    color: red;
+    background-color: White;
+    }
+
+    WAYS TO INCLUDE CSS IN HTML FILE
+     
+    Inline
+    Internal
+    External
+
+    COLOR PROPERTY
+
+    two ways to apply
+    
+    foreground- in texet items etc
+    background - in background of that 
+
+    
+
+
+
+
+
+
+
+
+*/

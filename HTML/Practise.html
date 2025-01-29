@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,tr,th,td{
+            border: 1.5px solid rgb(239, 221, 221);
+            background-color: black;
+            color: aliceblue;
+
+        }
+    </style>
+<div class="Qns1">
+    
+    <table>
+        <caption style="background-color: black;">Student Information</caption>
+        <tbody>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Kathmandu</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Chitwan</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Pokhara</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>USA</td>
+                <td>1</td>
+            </tr>
+
+        </tbody>
+    </table>
+        <hr>
+        <br><br><br><br><br>
+
+</div>
+<div class="Qns2">
+
+    <form>
+        <label for="name0">Name</label>
+        <input type="text" id="name0" name="Name0"><br>
+        Sex: 
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+        <label for="country">Country: </label>
+        <select id="country" name="country">
+            <option>Select an option</option>
+            <option>United States of America</option>
+            <option>Nepal</option>
+        </select><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" placeholder="Give your valuable feedback here" rows="
+    4" cols="30"></textarea><br>
+    <input type="checkbox" id="subs" name="subs">
+    <label for="subs">Subscribe?</label><br>
+    <button>Submit</button>
+    </form>
+
+</div>
+
+<div class="Qns3">
+    <form>
+    <h1>Feedback Form</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="write your name">
+    <br><br>
+    <label for="email">Email: </label>
+    <input type="text" placeholder="Write your email"><br><br>
+    <label>Message: </label><br>
+    <textarea rows="4" cols="30"></textarea>
+    <br><br>
+    Rate us our of 5:<br>
+    <input type="radio" id="1" name="rate">
+    <label for="1">1</label><br>
+    <input type="radio" id="2" name="rate">
+    <label for="2">2</label><br>
+    <input type="radio" id="3" name="rate">
+    <label for="3">3</label><br>
+    <input type="radio" id="4" name="rate">
+    <label for="4">4</label><br>
+    <input type="radio" id="5" name="rate">
+    <label for="5">5</label>
+    <br><br><br>
+    <button>Send your message!</button>
+</form>
+</div>
+
+</body>
+</html>

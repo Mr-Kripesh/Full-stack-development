@@ -1,0 +1,74 @@
+Selectors
+    Universal Selectors
+    To select everything in a document
+     symbol - *
+
+    Element Selectors
+    To select all elements of the same type
+    symobl - it dont have symbol; we need to use element direclty like h1 | p | img | video etc
+
+    Id Selectors
+    To select an element based on the value of the element's id attribute.
+    symbol - #value that you kept in id
+
+    Class Selectors
+    To select an element based on their class attribute
+    symbol - .name of the class
+
+
+    Descendent Selectors
+    Eg- select all paragraph inside divs
+      div p{
+        color: aqua;
+      }
+
+    Adjacent Sibling Combinator
+    Eg- Heading 3 that comes immediately after any paragraph
+      p + h3{
+        color:black;
+      }
+    
+    Child Combinator
+    Eg- selects all buttons which are direct childer of spans
+      span > button{
+        backgrpund-color:red;
+      }
+
+    attribute Selectors
+    Selects elements based on the presence or value of a given attribute
+       input[attr="text"]{                                 type = password | type = text any thing attr is type and password or text is value
+        color: red;
+       }
+
+    
+
+
+
+    pseudo Class
+    A keyword added to selector that specifies a special a special state of the selected elements
+
+    :hover
+    :active
+    :checked
+    :nth-of-type
+
+
+    Pseudo Element
+    A keyword added to a selector that lets you style a specific part of the selected elements
+
+    ::first-letter
+    ::first-line
+    ::selection
+
+
+    Selector Specificy
+    What is specificity?
+    specificity is an algorithm that calculates the weight that is applied to a given CSS declaration.
+
+    id>class,attribute or pseudo-element> elements & pseudo-element
+
+    
+
+
+
+

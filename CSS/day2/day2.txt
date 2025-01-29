@@ -1,0 +1,31 @@
+Text properties
+    text-align ; use to align text either center, right or left
+    font-weight: Use to set the weight of the text like bold bolder etc
+    text-decoration: Use to decorate the text like underline, cut from middle, etc
+    line-height : Use to set and change the height between two lines
+    letter-spacing: use to set the space between the words
+    font-size: use to set the size of the text
+
+Text-align
+    text-align: left/start
+    text-align: right/end
+    text-align: center
+    text-align: justify
+
+font-weight
+    font-weight: normal = 400
+    font-weight: bold = 700
+    font-weight: 100
+    font-weight: bolder
+    font-weight: lighter
+
+
+Font-size units in CSS
+    ABSOLUTE       |    RELATIVE
+    PX - PIXEL  *  |    %   *
+    pt             |    em  *
+    pc             |    rem *
+    cm             |    ch
+    mm             |    vh
+    in             |    vw + many more
+    
