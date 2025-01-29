@@ -1,0 +1,30 @@
+Box-Model
+ Height
+ Width
+ Border
+ Padding
+ Margin
+
+
+ Height: By default, it sets the content area and height of the element.
+    div{
+        height: 100px;
+    }
+    
+ Border property:
+    border-Width
+    border-style
+    border-color
+
+
+Opacity and Alpha
+    
+    alpha it ranges from 00 to ff where 00 is completely hidden 
+    where ff is completely visible. It only accepts the selected elements.
+
+    opacity it ranges from 0 to 1 it. It make everythng get affected after use.
+
+CSS Transitions
+ 
+ Transitions enable you to define the transition between 2 state of elements.
+ 

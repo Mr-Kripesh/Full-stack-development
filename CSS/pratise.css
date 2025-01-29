@@ -1,0 +1,20 @@
+*{
+    display: inline-block;
+}
+.box{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px black dotted;
+    margin: 2em 20px 1em 40px;
+    padding: 1em;
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border: 100%;
+    display: inline-block;
+}
